@@ -16,6 +16,7 @@ int main(void)
 		{
 			putchar(calpha[a]);
 		}
+		putchar('\n');
 	for (n = 0; a < 26; n++)
 	{
 		putchar(salpha[n]);
