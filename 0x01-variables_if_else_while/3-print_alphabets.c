@@ -21,7 +21,6 @@ int main(void)
 	{
 		putchar(salpha[n]);
 	}
-	putchar('\n');
 return (0);
 }
 
