@@ -15,6 +15,7 @@ int main(void)
 	{
 		printf("%d", a[b]);
 	}
+	printf("\n");
 	return (0);
 }
 
