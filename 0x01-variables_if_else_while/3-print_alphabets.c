@@ -8,19 +8,13 @@
 
 int main(void)
 {
-	char calpha[26] = "abcdefghijklmnopqrstuvwxyz";
-	char salpha[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char calpha[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int a = 0;
-	int n = 0;
-		for (a = 0; a < 26; a++)
+		for (a = 0; a < 52; a++)
 		{
 			putchar(calpha[a]);
 		}
 		putchar('\n');
-	for (n = 0; a < 26; n++)
-	{
-		putchar(salpha[n]);
-	}
 return (0);
 }
 
